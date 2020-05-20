@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">groupproject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="initial_time_text">00:00:00</string>
+    <string name="lap_button_text">Event</string>
+    <string name="go">GO</string>
+    <string name="type_your_url_here">Type Your URL Here</string>
+    <string name="set_the_name_of_the_event">Set the name of the event:</string>
+    <string name="set_the_time_of_the_event">Set the time of the event:</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="seconds">Seconds</string>
+    <string name="delete">delete</string>
+    <string name="finish">Finish</string>
+    <string name="todo">TODO</string>
+    <string name="relax">relax</string>
+    <string name="add">ADD</string>
+    <string name="you_can_add_an_event_of_your_choice_by_clicking_nthe_add_button_the_event_maker_gives_you_an_noption_to_name_the_event_and_set_a_timer_for_it_nour_app_will_notify_you_when_the_timer_ends">You can add an Event of your choice by clicking\nthe \'add\' button. The event maker gives you an\noption to name the event and set a timer for it.\nOur app will notify you when the timer ends.</string>
+    <string name="suspense">Suspense</string>
+    <string name="adventure">Adventure</string>
+    <string name="action">Action</string>
+    <string name="drama">Drama</string>
+    <string name="romance">Romance</string>
+    <string name="sci_fi">Sci-fi</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="disaster">Disaster</string>
+    <string name="comedies">Comedies</string>
+    <string name="title1">Title</string>
+    <string name="current_time1">Current Time</string>
+    <string name="max_time1">Max Time</string>
+    <string name="audio_player">Audio Player</string>
+    <string name="video_player">Video Player</string>
+
+
+</resources>

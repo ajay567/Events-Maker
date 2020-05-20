@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".video">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints,UselessParent"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/poster1"
+            android:src="@drawable/movie1"
+            android:background="#d1bc32"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/title1"
+            android:clickable="true"
+            android:text="@string/adventure"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:background="#cc9229"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toEndOf="@+id/poster"
+            android:focusable="true" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/poster2"
+            android:src="@drawable/movie22"
+            android:background="#d1bc32"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/drama"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:layout_weight="10"
+            android:background="#f7890a"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintStart_toEndOf="@+id/poster"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/poster3"
+                android:src="@drawable/movie3"
+                android:background="#d1bc32"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:clickable="true"
+                android:text="@string/action"
+                android:textSize="50sp"
+                android:background="#cc9229"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/poster4"
+                android:src="@drawable/movie4"
+                android:background="#d1bc32"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:clickable="true"
+                android:text="@string/romance"
+                android:textSize="50sp"
+                android:layout_weight="10"
+                android:background="#f7890a"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:background="#d1bc32"
+                android:id="@+id/poster5"
+                android:src="@drawable/movie5"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:gravity="center"
+                android:clickable="true"
+
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:text="@string/sci_fi"
+                android:textSize="50sp"
+                android:background="#cc9229"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:background="#d1bc32"
+                android:id="@+id/poster6"
+                android:src="@drawable/movie6"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:text="@string/fantasy"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="#f7890a"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/poster7"
+                android:src="@drawable/movie7"
+                android:background="#d1bc32"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:text="@string/disaster"
+                android:textSize="50sp"
+                android:gravity="center"
+                android:clickable="true"
+                android:background="#cc9229"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/poster8"
+                android:src="@drawable/movie8"
+                android:background="#d1bc32"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:text="@string/comedies"
+                android:gravity="center"
+                android:clickable="true"
+                android:textSize="50sp"
+                android:background="#f7890a"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/poster9"
+                android:src="@drawable/movie9"
+                android:background="#d1bc32"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/title9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic"
+                android:text="@string/suspense"
+                android:textSize="50sp"
+                android:clickable="true"
+                android:gravity="center"
+                android:background="#d4f542"
+                android:layout_weight="10"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintStart_toEndOf="@+id/poster"
+                android:focusable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
